@@ -31,7 +31,7 @@ where the answer came from.
 
 ## 🖥️ Screenshots
 
-![FinSiht AI HomePage](screenshots\homePage.png)
+![FinSight AI HomePage](screenshots\homePage.png)
 
 ![FinSight AI Demo](screenshots\chat.png)
 
