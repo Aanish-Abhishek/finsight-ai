@@ -95,7 +95,7 @@ OPENAI_API_KEY=sk-your-key-here
 streamlit run app.py
 
 
-📁 Project Structure
+## 📁 Project Structure
 finsight-ai/
 ├── app.py              # Streamlit UI
 ├── rag_pipeline.py     # RAG pipeline (LangChain + FAISS)
@@ -105,35 +105,29 @@ finsight-ai/
 └── README.md           # This file
 
 
-📖 Key Concepts Used
-RAG (Retrieval Augmented Generation) — Grounds LLM answers in your
-document to eliminate hallucination
-LCEL (LangChain Expression Language) — Modern pipe-based chain
-composition
-Vector Embeddings — Semantic search using mathematical similarity
-instead of keyword matching
-FAISS — Millisecond-speed similarity search over thousands of chunks
-Chunking with overlap — 200 character overlap ensures answers spanning
-chunk boundaries are never lost
+## 📖 Key Concepts Used
+### RAG (Retrieval Augmented Generation) — Grounds LLM answers in your
+### document to eliminate hallucination
+### LCEL (LangChain Expression Language) — Modern pipe-based chain
+### composition
+### Vector Embeddings — Semantic search using mathematical similarity
+### instead of keyword matching
+### FAISS — Millisecond-speed similarity search over thousands of chunks
+### Chunking with overlap — 200 character overlap ensures answers spanning
+### chunk boundaries are never lost
 
 
-🔮 Future Improvements
-[ ] FastAPI backend to expose RAG as a REST API
-[ ] Support multiple PDFs simultaneously
-[ ] Add conversation memory across questions
-[ ] Deploy on AWS / GCP
-[ ] Add support for scanned PDFs via OCR
-[ ] Streaming responses for better UX
+## 🔮 Future Improvements
+### [ ] FastAPI backend to expose RAG as a REST API
+### [ ] Support multiple PDFs simultaneously
+### [ ] Add conversation memory across questions
+### [ ] Deploy on AWS / GCP
+### [ ] Add support for scanned PDFs via OCR
+### [ ] Streaming responses for better UX
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 Built by Aanish — Software Engineer transitioning into GenAI/Agentic AI Engineering.
 ⭐ If you found this useful, give it a star!
 
 ---
-
-A few things to do after pasting:
-
-1. Replace your-username with your actual GitHub username
-2. Take a screenshot of the app → save it as screenshots/demo.png in your project folder
-3. The *Future Improvements* section is gold for interviews — shows you think beyond the current scope
