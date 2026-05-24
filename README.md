@@ -106,24 +106,20 @@ finsight-ai/
 
 
 ## 📖 Key Concepts Used
-### RAG (Retrieval Augmented Generation) — Grounds LLM answers in your
-### document to eliminate hallucination
-### LCEL (LangChain Expression Language) — Modern pipe-based chain
-### composition
-### Vector Embeddings — Semantic search using mathematical similarity
-### instead of keyword matching
-### FAISS — Millisecond-speed similarity search over thousands of chunks
-### Chunking with overlap — 200 character overlap ensures answers spanning
-### chunk boundaries are never lost
+RAG (Retrieval Augmented Generation) — Grounds LLM answers in your document to eliminate hallucination
+LCEL (LangChain Expression Language) — Modern pipe-based chain composition
+Vector Embeddings — Semantic search using mathematical similarity instead of keyword matching
+FAISS — Millisecond-speed similarity search over thousands of chunks
+Chunking with overlap — 200 character overlap ensures answers spanning chunk boundaries are never lost
 
 
 ## 🔮 Future Improvements
-### [ ] FastAPI backend to expose RAG as a REST API
-### [ ] Support multiple PDFs simultaneously
-### [ ] Add conversation memory across questions
-### [ ] Deploy on AWS / GCP
-### [ ] Add support for scanned PDFs via OCR
-### [ ] Streaming responses for better UX
+[ ] FastAPI backend to expose RAG as a REST API
+[ ] Support multiple PDFs simultaneously
+[ ] Add conversation memory across questions
+[ ] Deploy on AWS / GCP
+[ ] Add support for scanned PDFs via OCR
+[ ] Streaming responses for better UX
 
 
 ## 👨‍💻 Author
